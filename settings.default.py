@@ -13,6 +13,7 @@ eddn_timeout = 60000
 
 # Discord Webhook
 webhook_url = 'https://discordapp.com/api/webhooks/[server]/[webhook-id]'
+webhook_url_system_monitor = 'https://discordapp.com/api/webhooks/[server]/[webhook-id]'
 
 monitored_factions = [
         'Browncoats',
@@ -21,3 +22,9 @@ monitored_factions = [
 CMDRs = [
         'Unifex',
         ]
+monitored_systems = [
+        'White Sun',
+        ]
+owners = {
+        'White Sun': 'Browncoats',
+        }
